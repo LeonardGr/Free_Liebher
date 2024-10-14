@@ -961,7 +961,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"liebherr-ta230-stage.jpg"
+                         "value":"machine.pdf"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -1206,6 +1206,28 @@
                  "width":79.8257799874834,
                  "x":1156.10963973298,
                  "y":680.377140400528
+                }, 
+                {
+                 "class":"area",
+                 "height":87.3314,
+                 "id":39,
+                 "name":"website",
+                 "properties":[
+                        {
+                         "name":"dynamic",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"machine.pdf"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":68.9281,
+                 "x":545.644000659817,
+                 "y":1202.45953248605
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1217,40 +1239,7 @@
          "draworder":"topdown",
          "id":61,
          "name":"configuration",
-         "objects":[
-                {
-                 "class":"variable",
-                 "height":0,
-                 "id":20,
-                 "name":"websiteURL",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"liebherr-ta230-stage.jpg"
-                        }, 
-                        {
-                         "name":"description",
-                         "type":"string",
-                         "value":"test image"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"image test"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":false
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":495.772122710964,
-                 "y":1350.04001173678
-                }],
+         "objects":[],
          "opacity":1,
          "properties":[
                 {
@@ -1470,7 +1459,7 @@
          "y":0
         }],
  "nextlayerid":62,
- "nextobjectid":39,
+ "nextobjectid":40,
  "orientation":"orthogonal",
  "properties":[
         {
